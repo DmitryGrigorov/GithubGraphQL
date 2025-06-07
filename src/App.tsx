@@ -6,6 +6,7 @@ import Profile from './pages/Profile';
 import Branches from './pages/Branches';
 import GraphQLMutations from './pages/GraphQLMutations';
 import CreateRepository from './pages/CreateRepository';
+import Subscriptions from './pages/Subscriptions';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="branches" element={<Branches />} />
           <Route path="mutations" element={<GraphQLMutations />} />
           <Route path="create-repo" element={<CreateRepository />} />
+          <Route path="subscriptions" element={<Subscriptions />} />
         </Route>
       </Routes>
     </Router>

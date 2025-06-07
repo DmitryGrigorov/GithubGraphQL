@@ -9,6 +9,7 @@ import {
   StarOutlined,
   TeamOutlined,
   PlusOutlined,
+  NotificationOutlined,
 } from '@ant-design/icons';
 
 const { Header, Content, Sider } = Layout;
@@ -51,6 +52,11 @@ const MainLayout: React.FC = () => {
       key: '/create-repo',
       icon: <PlusOutlined />,
       label: <Link to="/create-repo">Создать репозиторий</Link>,
+    },
+    {
+      key: '/subscriptions',
+      icon: <NotificationOutlined />,
+      label: <Link to="/subscriptions">Subscriptions</Link>,
     },
   ];
 
